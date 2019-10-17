@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:shakerrapid/adminUser:password
+  username: admin
+dashboardAuthID: vault:shakerrapid:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:shakerrapid:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:shakerrapid/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:shakerrapid/prow:hmacToken
